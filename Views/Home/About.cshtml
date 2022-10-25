@@ -1,7 +1,60 @@
 ﻿@{
-    ViewBag.Title = "About";
+	ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<div class="row">
+	<div class="jumbotron">
+		<h1 class="display-4">Hola soy algo nuevo</h1>
+		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+		<hr class="my-4">
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+	</div>
+</div>
+<div class="row">
+	<div class="card" style="width: 18rem;">
+		
+		<div class="card-body">
+			<h5 class="card-title">Card title</h5>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<button id="btn1" type="button" class="btn btn-primary">Primary</button>
+		</div>
+	</div>
+</div>
+<div class="row">
+    <div id="contenido">   </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <table class="table" id="table_id">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @for (int i = 0; i < 100; i++)
+                {
+                    <tr><td>@i</td></tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    $("#btn1").click(function() {
+		//alert("Hola");
+        $.post("/Home/Contact", function (data) {
+            $("#contenido").html(data);
+        });
+	})
+ //   var s = document.getElementById('btn1').addEventListener('click', function () {
+	//	alert('hola');
+	//});
+    $(document).ready(function () {
+        $('#table_id').DataTable();
+    });
+
+</script>
