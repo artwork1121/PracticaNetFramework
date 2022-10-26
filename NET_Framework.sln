@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32602.291
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET_Framework", "NET_Framework.csproj", "{612C2ADC-5EBA-4357-ACE0-DA5EC7678CAD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net_Framework_Identity", "Net_Framework_Identity\Net_Framework_Identity.csproj", "{5FAC21DA-392B-44F0-8167-DF9D607AD2DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{B5BDD526-131C-4A39-B460-D281FD3773DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NF.Models", "NF.Models\NF.Models.csproj", "{D72B0746-FDD7-48BA-86CA-3EE56E20C1AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{5FAC21DA-392B-44F0-8167-DF9D607AD2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FAC21DA-392B-44F0-8167-DF9D607AD2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FAC21DA-392B-44F0-8167-DF9D607AD2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72B0746-FDD7-48BA-86CA-3EE56E20C1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72B0746-FDD7-48BA-86CA-3EE56E20C1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72B0746-FDD7-48BA-86CA-3EE56E20C1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72B0746-FDD7-48BA-86CA-3EE56E20C1AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
