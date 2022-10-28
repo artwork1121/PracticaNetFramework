@@ -7,17 +7,10 @@ Este proyecto es la plantilla base sobre la cual se realizaran las practicas de 
 - Bootstrap se actualizo a la version 4.6 para tener acceso a la documentación.
 - La libreria de JQuery se movio al Header de la web para no tener problemas al utilizar la libreria.
 
-## Plantillas
-
-Se incluyen dos proyectos de plantillas en la solucion.
-- Plantilla MVC
-- Plantilla MVC con autenticacion por cuentas de usuario.
-
 ## Consideraciones
-- La plantilla de solo MVC no tiene configurado Entity Framework. Se deben agregar la libreria "EntityFramework" y habilitar migraciones con el comando "Enable-Migrations" para poder utilizar Code First.
-- La plantilla MVC con autenticacion por cuentas de usuario ya posee u contexto creado, el cual se puede reutilizar.
+- No tiene configurado Entity Framework. Se deben agregar la libreria "EntityFramework" y habilitar migraciones con el comando "Enable-Migrations" para poder utilizar Code First.
 
 ## Comandos para Migraciones
 - Enable-Migrations
-- Add-migrations [Nombre de la migracion]
+- Add-migrations [Nombre]
 - Update-Database

@@ -24,13 +24,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        @Html.ActionLink("Inicio", "Index", "Home", new { @class = "nav-link" })
+                        @Html.ActionLink("Productos", "Index", "Products", new { @class = "nav-link" })
                     </li>
                     <li class="nav-item">
-                        @Html.ActionLink("Acerca de", "About", "Home", new { @class = "nav-link" })
-                    </li>
-                    <li class="nav-item">
-                        @Html.ActionLink("Contacto", "Contact", "Home", new { @class = "nav-link" })
+                        @Html.ActionLink("Acerca de Nosotros", "About", "Home", new { @class = "nav-link" })
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -44,7 +41,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
+            <p>Copyright &copy; todos los derechos reservados</p>
         </footer>
     </div>
 
