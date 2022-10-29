@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Inicio";
+    //ViewBag.Cards;
+}
+<div class="d-flex justify-content-around">
+    @foreach (var card in Model)
+    {<a href="/@card.Link" class="text-decoration-none d-block">
+            <div class="card align-items-center bg-light text-dark" style="width: 320px; margin-top: 20px;">
+
+                <div class="p-5 text-danger align-content-center" style="width: 60%;">
+                    @Html.Raw(card.Img)
+                </div>
+                <div class="card-body mt-1">
+                    <h5 class="card-title text-uppercase text-center h3">@card.Title</h5>
+                    <p class="card-text h6 mt-4">@card.Body</p>
+                </div>
+
+            </div>
+        </a>
+    }
+</div>
+
+
+<style>
+    div > a :hover {
+        border-color: rgb(0 0 0);
+        transition-duration: 0.4s;
+    }
+</style>
