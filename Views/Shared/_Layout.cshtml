@@ -10,14 +10,14 @@
 
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="height: 0vh;">
         @Html.Partial("_Navbar")
     </div>
-    <div class="container-fluid body-content pt-3">
+    <div class="container-fluid body-content pt-3" style="height: 100%;">
         @RenderBody()
         <hr />
         <footer>
-            <p class="text-right">Copyright &copy @DateTime.Now.Year, todos los derechos reservados</p>
+            <p style="text-align:end; display: block;">Copyright &copy @DateTime.Now.Year - Todos los derechos reservados.</p>
         </footer>
     </div>
 

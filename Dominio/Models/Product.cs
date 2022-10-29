@@ -11,9 +11,11 @@ namespace NET_Framework.Models
         [Required(ErrorMessage = "El campo {0} es requerido.")]
         [Display(Name = "Marca Nro.")]
         public long BrandId { get; set; }
+        [Display(Name ="Imagen")]
+        public Byte[] Image { get; set; }
         [Required(ErrorMessage = "El campo {0} es requerido.")]
         [MaxLength(60)]
-        [Display(Name = "Producto")]
+        [Display(Name = "Nombre")]
         public string ProductName { get; set; }
         [Required(ErrorMessage = "El campo {0} es requerido.")]
         [MaxLength(100)]

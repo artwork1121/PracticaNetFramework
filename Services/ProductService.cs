@@ -3,7 +3,6 @@ using Dominio.Models.dto;
 using NET_Framework.Models;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 
 namespace NET_Framework.Services
 {
@@ -26,6 +25,7 @@ namespace NET_Framework.Services
                         Id = product.Id,
                         BrandId = product.BrandId,
                         BrandName = brands.Where(x => x.Id == product.Id).Select(x => x.BrandName).FirstOrDefault(),
+                        Image = product.Image,
                         ProductName = product.ProductName,
                         ProductDescription = product.ProductDescription,
                         Price = product.Price,
@@ -58,6 +58,7 @@ namespace NET_Framework.Services
                     Id = product.Id,
                     BrandId = product.BrandId,
                     BrandName = brand.BrandName,
+                    Image = product.Image,
                     ProductName = product.ProductName,
                     ProductDescription = product.ProductDescription,
                     Price = product.Price,

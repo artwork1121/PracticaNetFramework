@@ -1,12 +1,5 @@
-﻿using NET_Framework.Models;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
+﻿using System;
+using System.Web;
 
 namespace Dominio.Models.dto
 {
@@ -14,6 +7,8 @@ namespace Dominio.Models.dto
     {
         public long Id { get; set; }
         public long BrandId { get; set; }
+        public HttpPostedFileBase photo { get; set; }
+        public Byte[] Image { get; set; }
         public string BrandName { get; set; }
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }

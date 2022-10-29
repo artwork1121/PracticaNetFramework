@@ -63,6 +63,14 @@
     <Compile Include="Migrations\202210270342595_update brand.designer.cs">
       <DependentUpon>202210270342595_update brand.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202210290416407_modified company.cs" />
+    <Compile Include="Migrations\202210290416407_modified company.designer.cs">
+      <DependentUpon>202210290416407_modified company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202210290526303_update products.cs" />
+    <Compile Include="Migrations\202210290526303_update products.designer.cs">
+      <DependentUpon>202210290526303_update products.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,6 +94,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202210270342595_update brand.resx">
       <DependentUpon>202210270342595_update brand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210290416407_modified company.resx">
+      <DependentUpon>202210290416407_modified company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210290526303_update products.resx">
+      <DependentUpon>202210290526303_update products.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

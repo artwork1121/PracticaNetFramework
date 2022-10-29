@@ -1,0 +1,12 @@
+﻿@model Dominio.Models.dto.PhotoDto
+
+@{
+    ViewBag.Title = "FileUpload";
+}
+
+<h1>@ViewBag.Title</h1>
+@using (Html.BeginForm("Create", "Photo", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="@Html.NameFor(m=>m.Photo)" accept="image/*png, image/*jpeg" />
+    <input type="submit" value="submit" class="btn btn-primary" />
+}
