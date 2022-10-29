@@ -9,3 +9,9 @@ C:\Users\Facundo\Desktop\PracticaNetFramework\Dominio\obj\Debug\Dominio.csproj.A
 C:\Users\Facundo\Desktop\PracticaNetFramework\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Facundo\Desktop\PracticaNetFramework\Dominio\obj\Debug\Dominio.dll
 C:\Users\Facundo\Desktop\PracticaNetFramework\Dominio\obj\Debug\Dominio.pdb
+C:\dev\NET\Curso\PracticaNetFramework\Dominio\bin\Debug\Dominio.dll
+C:\dev\NET\Curso\PracticaNetFramework\Dominio\bin\Debug\Dominio.pdb
+C:\dev\NET\Curso\PracticaNetFramework\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\dev\NET\Curso\PracticaNetFramework\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\dev\NET\Curso\PracticaNetFramework\Dominio\obj\Debug\Dominio.dll
+C:\dev\NET\Curso\PracticaNetFramework\Dominio\obj\Debug\Dominio.pdb
